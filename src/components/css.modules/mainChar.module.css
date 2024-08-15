@@ -1,0 +1,31 @@
+.mainCharIdle {
+	width: 671px;
+	height: 571px;
+	background-image: url("../../assets/characters/mainIdle.png");
+}
+
+.mainCharDie {
+	background-image: url("../../assets/characters/mainDead.png");
+}
+
+.mainCharRun {
+	background-image: url("../../assets/characters/mainRun.png");
+}
+
+.mainCharDie,
+.mainCharIdle,
+.mainCharRun {
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+	animation: mainChar 0.9s steps(10) infinite;
+}
+
+@keyframes mainChar {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 6710px;
+	}
+}

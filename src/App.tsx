@@ -1,5 +1,11 @@
+import MainChar from "./components/MainChar";
+
 function App() {
-	return <div></div>;
+	return (
+		<>
+			<MainChar />
+		</>
+	);
 }
 
 export default App;
