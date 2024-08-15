@@ -1,0 +1,133 @@
+.ladyZombieIdle {
+	position: absolute;
+	z-index: 9999;
+	background-image: url("../../assets/characters/zombieIdle1.png");
+	animation: ladyZombieIdle 0.7s steps(5) infinite;
+}
+.manZombieIdle {
+	position: absolute;
+	background-image: url("../../assets/characters/zombieIdle2.png");
+	animation: manZombieIdle 0.7s steps(5) infinite;
+}
+
+.ladyZombieRun {
+	position: absolute;
+	z-index: 9999;
+	background-image: url("../../assets/characters/zombieWalk1.png");
+	animation: ladyZombieRun 0.55s steps(5) infinite;
+}
+.manZombieRun {
+	position: absolute;
+	background-image: url("../../assets/characters/zombieWalk2.png");
+	animation: manZombieRun 0.55s steps(5) infinite;
+}
+
+.ladyZombieAttack {
+	position: absolute;
+	z-index: 9999;
+	background-image: url("../../assets/characters/zombieAttack1.png");
+	animation: ladyZombieAttack 0.65s steps(8) infinite;
+}
+.manZombieAttack {
+	position: absolute;
+	background-image: url("../../assets/characters/zombieAttack2.png");
+	animation: manZombieAttack 0.65s steps(8) infinite;
+}
+
+.manZombieRun,
+.manZombieIdle,
+.manZombieAttack {
+	bottom: 10%;
+	left: 12%;
+}
+
+.ladyZombieIdle,
+.ladyZombieRun,
+.ladyZombieAttack {
+	bottom: 0%;
+	left: 0%;
+}
+
+.ladyZombieIdle {
+	width: 523px;
+	height: 578px;
+}
+
+.manZombieIdle {
+	width: 432px;
+	height: 521px;
+}
+
+.ladyZombieRun {
+	width: 523px;
+	height: 578px;
+}
+
+.manZombieRun {
+	width: 432px;
+	height: 521px;
+}
+
+.ladyZombieAttack {
+	width: 523px;
+	height: 578px;
+}
+
+.manZombieAttack {
+	width: 432px;
+	height: 521px;
+}
+
+@keyframes ladyZombieIdle {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 7845px;
+	}
+}
+
+@keyframes manZombieIdle {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 6480px;
+	}
+}
+
+@keyframes ladyZombieRun {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 5230px;
+	}
+}
+
+@keyframes manZombieRun {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 4320px;
+	}
+}
+
+@keyframes ladyZombieAttack {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 4184px;
+	}
+}
+
+@keyframes manZombieAttack {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 3456px;
+	}
+}
