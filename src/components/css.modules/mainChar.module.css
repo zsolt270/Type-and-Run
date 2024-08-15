@@ -1,15 +1,22 @@
 .mainCharIdle {
-	width: 671px;
+	width: 536px;
 	height: 571px;
 	background-image: url("../../assets/characters/mainIdle.png");
+	animation: mainCharIdleAndDie 0.9s steps(10) infinite;
 }
 
 .mainCharDie {
+	width: 536px;
+	height: 571px;
 	background-image: url("../../assets/characters/mainDead.png");
+	animation: mainCharIdleAndDie 0.8s steps(10);
 }
 
 .mainCharRun {
+	width: 671px;
+	height: 571px;
 	background-image: url("../../assets/characters/mainRun.png");
+	animation: mainCharRun 0.7s steps(8) infinite;
 }
 
 .mainCharDie,
@@ -18,14 +25,21 @@
 	position: absolute;
 	bottom: 0%;
 	right: 0%;
-	animation: mainChar 0.9s steps(10) infinite;
 }
 
-@keyframes mainChar {
+@keyframes mainCharIdleAndDie {
 	from {
 		background-position: 0;
 	}
 	to {
 		background-position: 6710px;
+	}
+}
+@keyframes mainCharRun {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position: 5368px;
 	}
 }
