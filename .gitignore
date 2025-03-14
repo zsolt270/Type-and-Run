@@ -23,3 +23,5 @@ todo.txt
 *.njsproj
 *.sln
 *.sw?
+
+*storybook.log
