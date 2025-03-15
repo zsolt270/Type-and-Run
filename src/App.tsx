@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      {isPlaying ? "" : <Modal />}
+      {isPlaying ? "" : <Modal setGameStatus={setIsPlaying} />}
       <Zombies status={charStatus} />
       <MainChar status={charStatus} />
     </>
