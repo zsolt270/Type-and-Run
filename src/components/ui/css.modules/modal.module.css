@@ -1,12 +1,18 @@
 .customModalDialog {
-  background-color: red;
   position: absolute !important;
-  bottom: 50%;
-  right: 50%;
-  /* z-index: 99999 !important; */
-  /* max-width: 50%; */
-  border-radius: 5%;
+  bottom: 250px;
+  right: 790px;
+
+  width: 400px;
+  height: 500px;
+  background: rgb(40, 40, 55);
+  background: linear-gradient(344deg, rgba(40, 40, 55, 1) 0%, rgba(16, 16, 18, 1) 50%);
+  box-shadow: 4px 6px 14px #00000036;
+  border-radius: 3px;
+  color: #f9f9f9;
+  padding: 16px;
 }
+
 .customModalBG {
   position: absolute;
   min-height: 100%;
