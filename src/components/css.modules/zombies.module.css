@@ -1,6 +1,6 @@
 .ladyZombieIdle {
   position: absolute;
-  z-index: 9999;
+  z-index: 2;
   background-image: url("../../assets/characters/zombieIdle1.png");
   animation: ladyZombieIdle 0.7s steps(5) infinite;
 }
@@ -12,7 +12,7 @@
 
 .ladyZombieRun {
   position: absolute;
-  z-index: 9999;
+  z-index: 2;
   background-image: url("../../assets/characters/zombieWalk1.png");
   animation: ladyZombieRun 0.55s steps(5) infinite;
 }
@@ -24,7 +24,7 @@
 
 .ladyZombieAttack {
   position: absolute;
-  z-index: 9999;
+  z-index: 2;
   background-image: url("../../assets/characters/zombieAttack1.png");
   animation: ladyZombieAttack 0.65s steps(8) infinite;
 }

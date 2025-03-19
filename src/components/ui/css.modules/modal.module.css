@@ -3,11 +3,14 @@
   position: absolute !important;
   bottom: 50%;
   right: 50%;
-  z-index: 99999 !important;
-  max-width: 25%;
+  /* z-index: 99999 !important; */
+  /* max-width: 50%; */
+  border-radius: 5%;
 }
 .customModalBG {
+  position: absolute;
   min-height: 100%;
   min-width: 100%;
-  /* background-color: aqua; */
+  box-shadow: 0em -50em 0px 10em rgba(0, 0, 0, 0.8) inset;
+  z-index: 3;
 }
