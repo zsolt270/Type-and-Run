@@ -3,13 +3,15 @@ import MainChar from "./components/MainChar";
 import Zombies from "./components/Zombies";
 import Modal from "./components/ui/Modal";
 import { GameStatus } from "./types";
+import Header from "./components/header";
 
 function App() {
   const [charStatus, setCharStatus] = useState<GameStatus["status"]>("idle");
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   return (
     <>
+      <Header />
       {isPlaying ? "" : <Modal setGameStatus={setIsPlaying} />}
       <Zombies status={charStatus} />
       <MainChar status={charStatus} />
