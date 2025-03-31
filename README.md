@@ -1,5 +1,5 @@
 # Type and Run
-proba
+probautzfugihoho
 This project is a 2d typer game, where u need to type the showed words. If u fail to write the words the chaser will get closer to u. When he catches u it's game over. So it is advisable to write quickly but above all CORRECTLY :) .
 
 ## Table of contents
